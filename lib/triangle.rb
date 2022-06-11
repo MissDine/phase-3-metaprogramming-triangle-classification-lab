@@ -30,7 +30,7 @@ class Triangle
     raise TriangleError unless sides_greater_than_zero? && valid_triangle_inequality?
   end
 
-  class TriangleError < StandardError
+  class TriangleErro < StandardError
   end
 
 end
